@@ -18,7 +18,7 @@ Console.WriteLine($"Используем массив: [{String.Join(", ", baseA
 
 string[] CreatingArrayStrings() // Метод создания произвольного масива строк с вводом с клавиатуры
     {
-    int size = RequestingSize();
+    int size = RequestingSize(); 
     string[] array = new string[size]; 
     for (int i = 0; i < array.Length; i++)
     {
@@ -45,9 +45,7 @@ int RequestingSize() // функция запроса размера масив�
                 Console.WriteLine("Вы ввели:\"0\", повторите ввод!");
         }
         else
-        {
             Console.WriteLine("Вы ввели некоректное значение, повторите ввод!");
-        }
     }
 }
 
@@ -61,8 +59,18 @@ bool IsAllDigits(string enterLine ) // Функция проверки, что �
     return true;
 }
 
+int CountingElementsThreeOrless(string[] array) // Метод подсчета элементов масива с 3 или менее символов в элементе.
+{
+    int counter = 0;
+    foreach (string element in array)
+            if (element.Length <= 3)
+                counter++;
+    return counter;
+}
 
-// Метод подсчета элементов масива с 3 или менее символов. 
+Console.WriteLine(CountingElementsThreeOrless(baseArray)); // тест 
+
+
 // Основной метод создание масива строк на освен данного.
 
 
