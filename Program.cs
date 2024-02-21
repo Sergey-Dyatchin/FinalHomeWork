@@ -9,12 +9,17 @@ Console.WriteLine($"Используем массив по умолчанию: [
 Console.WriteLine("Введите \"yes\", если хотите использовать массив по умолчанию.");
 Console.WriteLine("Введите любой другой символ, если хотите задать массив самостоятельно.");
 
-if (Console.ReadLine() != "yes")
+if (Console.ReadLine() != "yes") 
     {
         baseArray = CreatingArrayStrings();
     }
 
-Console.WriteLine($"Используем массив: [{String.Join(", ", baseArray)}]?"); // Выводим пользователю Масив с которым будем работать
+Console.WriteLine($"Используем массив: [{String.Join(", ", baseArray)}]?"); // Выводим пользователю Массив с которым будем работать
+
+string[] resultArray = CreatingArrayStringsElementsThreeOrless(baseArray, CountingElementsThreeOrless(baseArray));
+
+Console.WriteLine($"Новый массив: [{String.Join(", ", resultArray)}]?"); // Выводим пользователю итоговый масив
+
 
 string[] CreatingArrayStrings() // Метод создания произвольного масива строк с вводом с клавиатуры
     {
@@ -68,10 +73,17 @@ int CountingElementsThreeOrless(string[] array) // Метод подсчета �
     return counter;
 }
 
-Console.WriteLine(CountingElementsThreeOrless(baseArray)); // тест 
-
-
-// Основной метод создание масива строк на освен данного.
-
-
+string[] CreatingArrayStringsElementsThreeOrless (string[] array, int size) /* Метод создания  массива строк из существующего
+                                                                            с элементами в которых количество символом 3 или менее*/
+{
+        int counter = 0;
+        string[] newArray = new string[size];
+        foreach (string element in array)
+            if (element.Length <= 3)
+            {
+                newArray[counter] = element;
+                counter++;
+            }    
+    return newArray;
+}
 
