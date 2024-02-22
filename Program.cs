@@ -18,7 +18,7 @@ Console.WriteLine($"Используем массив: [{String.Join(", ", baseA
 
 string[] resultArray = CreatingArrayStringsElementsThreeOrless(baseArray, CountingElementsThreeOrless(baseArray));
 
-Console.WriteLine($"Новый массив: [{String.Join(", ", resultArray)}]?"); // Выводим пользователю итоговый масив
+Console.WriteLine($"Новый массив: [{String.Join(", ", resultArray)}]"); // Выводим пользователю итоговый масив
 
 
 string[] CreatingArrayStrings() // Метод создания произвольного масива строк с вводом с клавиатуры
