@@ -14,7 +14,7 @@ if (Console.ReadLine() != "yes")
         baseArray = CreatingArrayStrings();
     }
 
-Console.WriteLine($"Используем массив: [{String.Join(", ", baseArray)}]?"); // Выводим пользователю Массив с которым будем работать
+Console.WriteLine($"Используем массив: [{String.Join(", ", baseArray)}]"); // Выводим пользователю Массив с которым будем работать
 
 string[] resultArray = CreatingArrayStringsElementsThreeOrless(baseArray, CountingElementsThreeOrless(baseArray));
 
@@ -33,11 +33,11 @@ string[] CreatingArrayStrings() // Метод создания произвол�
     return array;
     }
 
-int RequestingSize() // функция запроса размера масива.
+int RequestingSize() // Метод запроса размера масива.
 {
     string enterLine;
     int number;
-    Console.Write("Введите размер масива (целое положительное число):");
+    Console.Write("Введите размер маcсива (целое положительное число):");
     while (true)
     {
         enterLine = Console.ReadLine()!; // NULL проверка в следующей строке
@@ -54,7 +54,7 @@ int RequestingSize() // функция запроса размера масив�
     }
 }
 
-bool IsAllDigits(string enterLine ) // Функция проверки, что ввели число.
+bool IsAllDigits(string enterLine ) // Метод проверки, что ввели число.
 {
     foreach (char symbol in enterLine)
     {
