@@ -1,0 +1,15 @@
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\bin\Debug\net8.0\FinalHomeWork.exe
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\bin\Debug\net8.0\FinalHomeWork.deps.json
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\bin\Debug\net8.0\FinalHomeWork.runtimeconfig.json
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\bin\Debug\net8.0\FinalHomeWork.dll
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\bin\Debug\net8.0\FinalHomeWork.pdb
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.AssemblyInfoInputs.cache
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.AssemblyInfo.cs
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.csproj.CoreCompileInputs.cache
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.sourcelink.json
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.dll
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\refint\FinalHomeWork.dll
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.pdb
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\FinalHomeWork.genruntimeconfig.cache
+C:\study\Git_r\FinalHomeWork\FinalHomeWork\obj\Debug\net8.0\ref\FinalHomeWork.dll
